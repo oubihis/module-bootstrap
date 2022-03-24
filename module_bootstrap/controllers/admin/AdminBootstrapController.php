@@ -123,7 +123,7 @@ class AdminBootstrapController extends ModuleAdminController
      *
      * @see AdminController::setMedia()
      */
-    public function setMedia()
+    public function setMedia($isNewTheme = false)
     {
         /**
          * Load (bit old) autocomplete jQuery plugin
